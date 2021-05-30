@@ -36,14 +36,7 @@
 +---------------+------------+--------------+----------+
 |Czy opinia potwierdzona zakupem|div.review-pz|||
 +---------------+------------+--------------+----------+
-|Data wystawienia opinii|
+|Data wystawienia opinii|span.user-post__published > time:nth-child(1)`["datetime"]`|||
 +---------------+------------+--------------+----------+
-|Data zakupu produktu|
+|Data zakupu produktu|span.user-post__published > time:nth-child(2)`["datetime"]`|||
 +---------------+------------+--------------+----------+
-
-
-
-
-review-feature__col:has(> div.review-feature__title--negatives) > review-feature__item
-review-feature__col:has(> div[class*="negatives"]) > review-feature__item
-div.review-feature__title--negatives ~ review-feature__item
